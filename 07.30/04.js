@@ -19,9 +19,11 @@ let starbucks = [
   
   // 여기에 코드를 작성하세요.
   // 아이스 전용 커피 배열을 만듭니다.
+
 //   const icedOnly = starbucks.filter(function (coffee) {
 //         return coffee.icedOnly;
 //   });
+
   const icedOnly = starbucks.filter(coffee => coffee.icedOnly);
   
   console.log(icedOnly);
